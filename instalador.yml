@@ -4,7 +4,7 @@
 
   tasks:
   - name: Instalar navegador
-    ansible.builtin.yum:
+    ansible.builtin.rpm:
       name: elinks
       state: present
     become: true 
